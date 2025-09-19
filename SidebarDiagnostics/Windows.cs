@@ -1378,7 +1378,7 @@ namespace SidebarDiagnostics.Windows
             });
 
         }
-        
+
         private async Task BindAppBar()
         {
             Monitor.GetWorkArea(this, out int screen, out DockEdge edge, out WorkArea initPos, out WorkArea windowWA, out WorkArea appbarWA);
@@ -1482,7 +1482,7 @@ namespace SidebarDiagnostics.Windows
                 switch (wParam.ToInt32())
                 {
                     case APPBARNOTIFY.ABN_POSCHANGED:
-                        SetAppBar();
+                        //SetAppBar(); removed due to constant refreshing bug
                         break;
 
                     case APPBARNOTIFY.ABN_FULLSCREENAPP:
