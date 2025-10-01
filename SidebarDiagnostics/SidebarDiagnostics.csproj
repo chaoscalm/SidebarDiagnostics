@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net8.0-windows</TargetFramework>
+    <TargetFramework>net8.0-windows10.0.17763.0</TargetFramework>
     <OutputType>WinExe</OutputType>
     <RuntimeIdentifiers>win-x64</RuntimeIdentifiers>
     <IsWebBootstrapper>false</IsWebBootstrapper>
@@ -24,6 +24,7 @@
     <UseWPF>true</UseWPF>
     <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
     <PlatformTarget>x64</PlatformTarget>
+    <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
   <PropertyGroup>
     <TargetZone>LocalIntranet</TargetZone>
