@@ -3,29 +3,34 @@
     <TargetFramework>net8.0-windows10.0.17763.0</TargetFramework>
     <OutputType>WinExe</OutputType>
     <RuntimeIdentifiers>win-x64</RuntimeIdentifiers>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>publish\</PublishUrl>
-    <Install>true</Install>
-    <InstallFrom>Disk</InstallFrom>
-    <UpdateEnabled>false</UpdateEnabled>
-    <UpdateMode>Foreground</UpdateMode>
-    <UpdateInterval>7</UpdateInterval>
-    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
-    <UpdatePeriodically>false</UpdatePeriodically>
-    <UpdateRequired>false</UpdateRequired>
-    <MapFileExtensions>true</MapFileExtensions>
-    <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <UseApplicationTrust>false</UseApplicationTrust>
-    <PublishWizardCompleted>true</PublishWizardCompleted>
-    <BootstrapperEnabled>true</BootstrapperEnabled>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	  <!-- <IsWebBootstrapper>false</IsWebBootstrapper> -->
+	  <!-- <PublishUrl>publish\</PublishUrl> -->
+	  <!-- <Install>true</Install> -->
+	  <!-- <InstallFrom>Disk</InstallFrom> -->
+	  <!-- <UpdateEnabled>false</UpdateEnabled> -->
+	  <!-- <UpdateMode>Foreground</UpdateMode> -->
+	  <!-- <UpdateInterval>7</UpdateInterval> -->
+	  <!-- <UpdateIntervalUnits>Days</UpdateIntervalUnits> -->
+	  <!-- <UpdatePeriodically>false</UpdatePeriodically> -->
+	  <!-- <UpdateRequired>false</UpdateRequired> -->
+	  <!-- <MapFileExtensions>true</MapFileExtensions> -->
+	  <!-- <AutorunEnabled>true</AutorunEnabled> -->
+	  <!-- <UseApplicationTrust>false</UseApplicationTrust> -->
+	  <!-- <PublishWizardCompleted>true</PublishWizardCompleted> -->
+	  <!-- <BootstrapperEnabled>true</BootstrapperEnabled> -->
+	  <!-- <ApplicationRevision>0</ApplicationRevision> -->
+	  <!-- <ApplicationVersion>1.0.0.%2a</ApplicationVersion> -->
+	  <!-- <GenerateAssemblyInfo>false</GenerateAssemblyInfo>  -->
     <UseWPF>true</UseWPF>
     <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
     <PlatformTarget>x64</PlatformTarget>
     <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
+	<PropertyGroup>
+		<Version>3.7.1</Version>
+		<AssemblyVersion>3.7.1.0</AssemblyVersion>
+		<FileVersion>3.7.1.0</FileVersion>
+	</PropertyGroup>
   <PropertyGroup>
     <TargetZone>LocalIntranet</TargetZone>
   </PropertyGroup>
